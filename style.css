@@ -85,7 +85,7 @@ h3 {
 }
 
 .post-preview {
-	background: #001020 url("hotel-11.jpg") 50% 50% no-repeat;
+	background: url("hotel-11.jpg") 50% 50% no-repeat;
 	background-origin: border-box;
 	height: 464px;
 	position: relative;
