@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+.layout-positioner {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.page-header {
+	background: #fff;
+	height: 218px;
+	width: 100%;
+}
+
+h1 {
+	padding-top: 60px;
+	margin: 0;
+	font-family: "Playfair display", serif;
+	font-size: 35px;
+	font-weight: 900;
+	color: #000;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h3 {
+	font-family: "Playfair display", serif;
+	font-size: 23px;
+	font-weight: 900;
+	color: #000;
+	text-align: center;
+	margin: 20px 0 10px 0;
+}
+
+.hovered h3 {
+	color: #FF7931;
+}
+
+.articles h3 {
+	text-align: left;
+}
+
+.nav {
+	font-family: "roboto", sans-serif;
+	font-size: 15px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	margin: 32px 0;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+  	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin: 46px 0 47px 0;
+}
+
+.nav a {
+	text-decoration: none;
+}
+
+.header.nav a {
+	color: #000;
+}
+
+.footer.nav a {
+	color: #fff;
+}
+
+.post-preview {
+	background: #001020 url("hotel-11.jpg") 50% 50% no-repeat;
+	background-origin: border-box;
+	height: 464px;
+	position: relative;
+	color: #fff;
+}
+
+.post-preview .layout-positioner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.post-preview h2 {
+	margin: 32px auto 0;
+	font-size: 72px;
+	font-weight: normal;
+	line-height: 84px;
+	color: #fff;
+}
+
+.post-preview p {
+	text-align: center;
+	margin-top: 130px;
+	width: 456px;
+}
+
+.gallery-icon {
+	margin-top: 46px;
+	height: 55px;
+	width: 55px;
+}
+
+.content h2 {
+	margin-top: 44px;
+}
+.articles{
+	display: flex;
+	justify-content: space-around;
+}
+
+.articles img {
+	width: 370px;
+	height: 203px;}
+
+article {
+	width: 370px;
+}
+
+.promo {
+	background: radial-gradient(circle at 50%, #fff 353px, #f7f7f7 353px);
+	margin: 50px auto;
+}
+.promo .layout-positioner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 556px;
+	width: 707px;
+}
+
+.promo h2 {
+	margin: 34px auto 10px;
+}
+
+.promo-offer{
+	text-align: center;
+}
+
+.promo hr {
+	width: 100px;
+	size: 1px;
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.promo button {
+	color: #fff;
+	background: #FF7931;
+	border: none;
+	width: 170px;
+	height: 47px;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 35px;
+}
+
+.promo button img {
+	margin-left: 11px;
+	vertical-align: middle;
+}
+
+.page-footer {
+	background: #575757;
+	height: 295px;
+}
+
+.page-footer h2 {
+	font-family: Playfair Display;
+	font-weight: 900;
+	font-size: 28px;
+	letter-spacing: 1px;
+	color: #fff;
+	padding-top: 36px;
+}
+
+.page-footer hr {
+	size: 1px;
+	margin: 42px auto;
+}
+
+.socials{
+	text-align: center;
+}
+
+
+.socials img {
+	width: 23px;
+	height: 23px;
+	padding: 12px;
+	margin: 0 7px;
+	background: #fff;
+	background-clip: border-box;
+}
