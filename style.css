@@ -80,7 +80,7 @@ h3 {
 	color: #fff;
 }
 
-.articles h3:hover, .nav a:hover  {
+.view:hover h3, .nav a:hover  {
 	color: #FF7931;
 }
 
